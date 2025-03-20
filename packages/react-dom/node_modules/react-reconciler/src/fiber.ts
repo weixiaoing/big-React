@@ -6,7 +6,7 @@ import { FunctionComponent, HostComponent, WorkTag } from './workTags';
 export class FiberNode {
 	tag: WorkTag;
 	key: Key;
-	stateNode: any; //fiber对应的dom实例
+	stateNode: any; //fiber对应的dom实例,根节点对应的是中继节点
 	type: any; //可以是原生Dom元素,函数组件,类组件
 	return: FiberNode | null;
 	sibling: FiberNode | null;

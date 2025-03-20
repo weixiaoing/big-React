@@ -12,7 +12,7 @@ function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);
-console.log('root', root);
+
 
 // root.render(jsx);
-root.render(<App />);
+root.render(<span>test</span>);
