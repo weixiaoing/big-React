@@ -51,6 +51,7 @@ export default defineConfig([
 			'@typescript-eslint/no-var-requires': 'off',
 			'no-unused-vars': 'off',
 			'@typescript-eslint/no-explicit-any': 'off'
-		}
+		},
+		ignores: ['**/__tests__/*.{js,jsx,ts,tsx}']
 	}
 ]);
